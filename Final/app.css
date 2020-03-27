@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    font-family: "Nunito", sans-serif;
+}
+
+.blurb h2 {
+   color: #EA1C2C;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+    font-size: 1rem;
+    
+}
+
+#mainNavbar .nav-link:hover,#mainNavbar .active {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color: #EA1C2C;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background:lightyellow;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+.head{
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+
+.burger-list{
+    color: #EA1C2C;
+    text-align: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sublist span , .sublist li{
+    color: wheat;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+.sublist{
+  margin-right: 5rem;
+}
+
+.logo{
+    margin-top: 3rem;
+}
+.pizza-list{
+    color: #EA1C2C;
+    text-align: center;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+footer{
+    text-align: center;
+    color: #EA1C2C;
+}
+
+
+#mainNavbar .navbar-collapse{
+    margin-right: 2rem;
+}
+
